@@ -1,0 +1,106 @@
+body {
+    background: #f1f1f1;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    outline: none;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    margin-bottom: 2%;
+}
+
+header h1{
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: blue;
+    padding: 5% 0;
+    margin: 0;
+}
+
+#colorDisplay {
+    color: turquoise;
+    font-size: 2em;
+}
+
+.gameInfo {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    position: relative;
+}
+
+.winInfo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.square {
+    padding-bottom: 20%;
+    background: purple;
+    flex-basis: 30%;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: background-color 0.4s ease-out;
+    -webkit-transition: background-color 0.4s ease-out;
+    -moz-transition: background-color 0.4s ease-out;
+}
+.newBtn {
+    position: absolute;
+    left: 15%;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background-color: #006331;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.4s ease-in-out;
+    -webkit-transition: background-color 0.4s ease-out;
+    -moz-transition: background-color 0.4s ease-out;
+}
+ .newBtn:hover {
+     background-color: springgreen;
+ }
+
+ .mod-btn-style {
+    position: relative;
+    margin: 0px;
+    right: -30%;
+    height: 100%;
+    color: #000;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.4s ease-in-out;
+    -webkit-transition: background-color 0.4s ease-out;
+    -moz-transition: background-color 0.4s ease-out;
+ }
+
+ .mod-btn-style:hover {
+    background: sienna;
+ }
+ .selected {
+     background: sienna;
+ }
